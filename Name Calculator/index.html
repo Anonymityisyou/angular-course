@@ -1,0 +1,18 @@
+<html ng-app="FirstAngularApp">
+    <head> 
+        <meta charset="utf-8">
+        <script src="angular.min.js"></script>
+        <script src="app.js"></script>
+        <title>First angular app</title> 
+    </head>
+    <body>
+       <h1>Hello there people</h1>   
+       <div ng-controller="divController">
+        Enter your name
+           <input type="text" ng-model="name">
+           <br>
+           Your name value is {{nameValue()}}
+           
+       </div>
+    </body>
+</html>
